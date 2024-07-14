@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 
-from model.mamba.convmamba import ConvMambaBlock
+from convmamba import ConvMambaBlock
 import math
 from torch.utils.checkpoint import checkpoint
 

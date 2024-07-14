@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 from einops.layers.torch import Rearrange
-from model.mamba.mamba import BiMamba
+from mamba import BiMamba
 
 def get_padding(kernel_size, dilation=1):
     return int((kernel_size*dilation - dilation)/2)
